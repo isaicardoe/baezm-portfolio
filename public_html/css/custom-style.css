@@ -77,9 +77,9 @@ section {
   overflow: hidden;
 }
 
-section#home { background-color: #00c0e4; margin-top: 70px;}
-section#about { background-color: #eac14d; }
-section#clients { background-color: #e6567a; }
+section#home { background-image: url(http://content.wallpapers-room.com/resolutions/1280x800/M/Wallpapers-room_com___Moment_in_space_CVI_by_Funerium_1280x800.jpg); }
+section#about { background-image: url(http://xn--80aqafcrtq.cc/img/8/8/8/88815.jpg); }
+section#clients { background-image: url(http://gamesapk.biz/images/47634-stars-galaxies-purple-hd-wallpaper.jpg); }
 
 section h2 {
   color: white;
