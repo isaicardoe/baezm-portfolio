@@ -14,9 +14,9 @@ body {
 
 header {
   width: 100%;
-  height: 70px;
+  height: 170px;
   box-sizing: border-box;
-  background-color: #373948;
+  background-color: black;
   position: fixed;
   top: 0px;
   left: 0px;
@@ -71,15 +71,15 @@ header nav ul li a.link-3 { background-color: #eac14d; }
 
 section {
   width: 100%;
-  height: 600px;
+  height: 800px;
   box-sizing: border-box;
-  padding: 20px;
+  padding: 30px;
   overflow: hidden;
 }
 
-section#home { background-image: url(http://content.wallpapers-room.com/resolutions/1280x800/M/Wallpapers-room_com___Moment_in_space_CVI_by_Funerium_1280x800.jpg); }
+section#home { background-image: url(http://static.tumblr.com/212fd227251fea69b963ce5f1c999dca/7f3vfwh/GYmn521na/tumblr_static_1cwqqrnw4yrok4gsw0w0ggcg0.jpg); }
 section#about { background-image: url(http://xn--80aqafcrtq.cc/img/8/8/8/88815.jpg); }
-section#clients { background-image: url(http://gamesapk.biz/images/47634-stars-galaxies-purple-hd-wallpaper.jpg); }
+section#projects { background-image: url(http://gamesapk.biz/images/47634-stars-galaxies-purple-hd-wallpaper.jpg); }
 
 section h2 {
   color: white;
@@ -116,4 +116,52 @@ section p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 1em; 
+}
+
+body { font: 400 1em/1.5 "Neuton"; background: black; color:gold; text-align: center; margin: 0 }
+
+p {
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	display: inline-block;
+	border: 4px double rgba(255,255,255,.25);
+	border-width: 4px 0;
+	padding: 1.5em 0em;
+	position: absolute;
+	top: 18%;
+	left: 50%;
+	width: 40em;
+	margin: 0 0 0 -20em;
+}
+
+p span {
+
+	font: 700 4em/1 "Oswald", sans-serif;
+	letter-spacing: 0;
+	padding: .25em 0 .325em;
+	display: block;
+	margin: 0 auto;
+	text-shadow: 0 0 80px rgba(255,255,255,.5);
+
+/* Clip Background Image */
+
+	background-color: black; 
+	-webkit-background-clip: text;
+
+/* Animate Background Image */
+
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: aitf 80s linear infinite;
+
+/* Activate hardware acceleration for smoother animations */
+
+	-webkit-transform: translate3d(0,0,0);
+	-webkit-backface-visibility: hidden;
+}
+
+/* Animate Background Image */
+
+@-webkit-keyframes aitf {
+	0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
 }
