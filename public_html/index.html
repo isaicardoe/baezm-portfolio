@@ -5,36 +5,61 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
         <link type="text/css" rel="stylesheet" href="css/custom-style.css">
-        <link type="text/css" rel="stylesheet" href="css/jsstuff.js">
-        <link href="http://fonts.googleapis.com/css?family=Oswald:700|Neuton" rel="stylesheet" type="text/css">
+        <link type="text/js" rel="javascript" href="javascript/jsstuff.js">
     </head>
    <body>
        <header>
-            <p>My Name Is <span>Isai Cardoso</span> &mdash; Im Too Sexy &mdash;</p>
-    <nav role='navigation'>
-            <ul>
-        <li><a class="link-1 entypo-home active" href="#home"></a></li>
-        <li><a class="link-2 entypo-picture" href="#projects"></a></li>
-        <li><a class="link-3 entypo-user" href="#about"></a></li>
+            <nav class="menu">
+    <div class="menu--control">
+            <div class="menu--control--hamburger">
+                <span>Open menu</span>
+            </div>
+            <div class="menu--control--close">
+                <span>Close menu</span>
+            </div>
+    </div>
+            </nav>
+            <ul class="menu--wrap">
+                <li class="menu--wrap--item"><a href="">About Me</a></li>
+                <li class="menu--wrap--item"><a href="">Projets</a></li>
+                <li class="menu--wrap--item"><a href="">App Academy</a></li>
             </ul>
-    </nav>  
+            <div id="header">
+             <div class="center">
+              <div class="middle">
+           <h1>Isai Cardoso</h1>
+             <span>My webpage scroll down to find out more my friend</span>
+              </div>
+             </div>
+            </div>
+                  
+              <div id="pageHr"> 
+                <i><i>↓</i></i>
+              </div>   
+
+       <div id="page"></div>
        </header>
-
-    <section id="home">
-        <h2>About Me</h2>
-            <div class="illustration1"></div>
-            <p>To me soccer is the best sport in the world i have played it since i was 5yrs old </p>
-    </section>
-    <section id="projects">
-        <h2>Projects</h2>
-            <div class="illustration2"></div>
-            <p>I have done many projects in js and css files like cookie clicker and breakout.</p>
-    </section>
-    <section id="about">
-        <h2>App Academy</h2>
-            <div class="illustration3"></div>
-            <p>App academy has taught me many things and how to do many projects.</p>
-    </section>
-
+       <article id="article1">
+                <p>I like to tell you a little about me and tell you what i like. 
+                </p>         
+            </article>
+       <ul class="social">
+	  <li><a class="social-twitter" href="#">
+            <i class="fa fa-twitter"></i>
+             <div class="tooltip"><span>Twitter</span></div>
+          </a></li>
+	  <li><a class="social-google" href="https://mail.google.com/mail/#inbox">
+            <i class="fa fa-google"></i>
+             <div class="tooltip"><span>Google+</span></div>
+          </a></li>
+	  <li><a class="social-instagram" href="#">
+            <i class="fa fa-instagram"></i>
+             <div class="tooltip"><span>Instagram</span></div>
+          </a></li>
+	  <li><a class="social-github" href="https://github.com/isaicardoe/baezm-portfolio">
+            <i class="fa fa-github"></i>
+             <div class="tooltip"><span>Github</span></div>
+          </a></li>
+        </ul>
    </body>
 </html>
