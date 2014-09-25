@@ -429,6 +429,7 @@ embed {
   -ms-transition: all 500ms ease-in-out;
   -o-transition: all 500ms ease-in-out;
 }
+
 @media (max-width: 820px) {
   .top {
     display: none;
