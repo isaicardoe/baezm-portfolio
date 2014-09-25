@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-image: url(../imgs/pw_maze_white.png);
 }
 h1 {
   color: #54a892;
@@ -132,7 +133,7 @@ img {
 }
 
 .header {
-  background: white;
+  background-image: url(../imgs/pw_maze_black.png);
   height: 125px;
   margin: 60px 0 40px 0;
   width: 100%;
