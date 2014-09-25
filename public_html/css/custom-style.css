@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url(../imgs/pw_maze_white.png);
+  background-image: url(../imgs/purty_wood.png);
 }
 h1 {
   color: #54a892;
@@ -70,7 +70,7 @@ img {
   width: auto;
 }
 .container p {
-  color: #727272;
+  color: black;
   font-family: georgia;
   line-height: 1.5;
   margin: 0;
@@ -133,7 +133,7 @@ img {
 }
 
 .header {
-  background-image: url(../imgs/pw_maze_black.png);
+  background-image: url(../imgs/wood_pattern.png);
   height: 125px;
   margin: 60px 0 40px 0;
   width: 100%;
