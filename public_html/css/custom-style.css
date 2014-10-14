@@ -117,9 +117,10 @@ img {
   }
 }
 .container .clmn img {
-  border-radius: 50%;
-  border: 5px solid #54a892;
-  width: 35%;
+  border-radius: 20%;
+  border: 3px solid #54a892;
+  width: 45%;
+  padding: 0;
 }
 .container .clmn h3 {
   color: #8F8F8F;
